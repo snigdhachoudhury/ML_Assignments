@@ -14,5 +14,29 @@ Assignment 2
 - `submission_detailed.csv` – Optional detailed version
 
 Assignment 3
-- `Dataset` - Input streaming dataset for 14 parking lots
-- `Dynamic_Pricing2`- Final output with dynamic prices per record
+## 📌 Overview
+
+Urban parking is a limited and highly demanded resource. Static pricing often leads to either overcrowding or underutilization. This project presents a **real-time dynamic pricing engine** for 14 urban parking lots using machine learning principles and basic economic theory — implemented **entirely from scratch** using only `numpy`, `pandas`, and **Pathway** for real-time simulation.
+
+The system adjusts parking prices in real-time based on factors like:
+
+- Occupancy and queue length
+- Vehicle type
+- Traffic congestion
+- Special day indicators
+- Nearby competitor prices (optional in Model 3)
+
+---
+
+## ⚙️ Tech Stack
+
+| Component              | Technology             |
+|------------------------|------------------------|
+| Programming Language   | Python                 |
+| Data Manipulation      | pandas, numpy          |
+| Real-Time Streaming    | Pathway                |
+| Visualization (optional) | Bokeh               |
+| Development Platform   | Google Colab / Jupyter |
+| Data Format            | CSV                    |
+
+
